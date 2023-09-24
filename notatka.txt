@@ -1,4 +1,16 @@
+Git na PC:
+1. cd C:/xampp/htdocs
+2. git clone https://github.com/gittomek1/biblioteka.git
+
+
 Git
+1. Robisz zmiany z zadania
+2. Wiersz piersz polecen z katalogu Biblioteka
+cd C:/xampp/htdocs/biblioteka
+
+3. git add -A
+4. git commit -m "Dodałem tytuł"
+5. git push
 
 
 Zadanie:
