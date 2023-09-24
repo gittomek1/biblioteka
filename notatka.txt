@@ -1,0 +1,13 @@
+Git
+
+
+Zadanie:
+Biblioteka
+
+ Tytuł "Biblioteka"
+ Fofmatowanie znakw UTF-8
+ 
+ Menu: 
+ Zaloguj -> singin.php 
+ Lista książek -> booklist.php
+ Moje konto -> myaccount.php
