@@ -4,15 +4,12 @@
         <title>Bilbioteka</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="singin.php">Zaloguj</a></li>
-                    <li><a href="booklist.php">Lista książek</a></li>
-                    <li><a href="myaccount.php">Moje konto</a></li>
-                </ul>
-            </nav>
-        </header>
+        <?php
+        session_start();
+
+        include('nav.php');
+        
+        ?>
                     
     </body>
 </html>
