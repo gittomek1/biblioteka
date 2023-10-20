@@ -1,13 +1,17 @@
+<?php
+$isAdmin = isset($_SESSION['userRole']) && $_SESSION['userRole'] == 'ADMIN';
+?>
+
 <nav>
     <ul>
     <?php
-        if (isset($_SESSION['userRole']) && $_SESSION['userRole'] == 'ADMIN') {
+        if ($isAdmin){
             echo '<li><a href="logout.php">Wyloguj</a></li>';
             echo "Witaj Admin";
-        } elseif (isset($_SESSION['userRole']) && $_SESSION['userRole'] == 'USER') {
+        }elseif (isset($_SESSION['userRole']) && $_SESSION['userRole'] == 'USER') {
             echo '<li><a href="logout.php">Wyloguj</a></li>';
             echo "Witaj User";
-        } else {
+        }else{
             echo '<li><a href="signin.php">Zaloguj</a></li>';
         }
         ?>
