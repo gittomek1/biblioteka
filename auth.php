@@ -25,7 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }else{
             echo "Błąd logowania<br>";
         }
-        echo $_SESSION['userRole'];
         echo "connected";
         mysqli_close($mysqli);
     }
